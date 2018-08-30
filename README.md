@@ -6,9 +6,11 @@ The Pair Matcher uses python2.
 
 ## Usage
 To use the Pair Matcher, simply create a txt called "students" with all the data you would like to be matched.
-![Image of students.txt](https://imgur.com/a/zpLNhTi)
+
+![Image of students.txt](https://i.imgur.com/4dTwu1l.png)
 Then run pairMatcher.py and it will out put another text file named "pairs.txt" with randomly generated pairs
-![Image of pairs.txt](https://imgur.com/a/58XgcT5)
+
+![Image of pairs.txt](https://i.imgur.com/PAMYRkd.png)
 
 
 ### Exceptions
