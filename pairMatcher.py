@@ -39,8 +39,11 @@ else:
 		prevMatched[second] = first
 		
 		pairs.write('{} - {}\n'.format(first, second))
-
-	pairs.write(students[0])
+		
+	try: #dealing with the last student if there's an odd number
+		pairs.write(students[0])
+	except:
+		pass
 
 	#Saves the matching data
 	pickle.dump(prevMatched, open("prevCombinations.p", "wb"))
